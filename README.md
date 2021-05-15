@@ -25,9 +25,7 @@ api_secret='你的secret'
 dingding_token = '申请钉钉群助手的token'   # 强烈建议您使用 （若不会申请，请加我个人微信）
 ```
 
-如果你还没有币安账号： [注册页面](https://www.binancezh.io/zh-CN/register?ref=OW7U53AB)[免翻墙地址](https://www.binancezh.cc/zh-CN/register?ref=OW7U53AB)交易返佣20% 注册立刻返现10元，充值交易再返现10元。
-
-或者可以注册火币账号：[注册页面](https://www.huobi.ms/zh-cn/topic/double-reward/?invite_code=w2732223)交易返佣15% 注册立刻返现5元，充值并且交易再返现10元
+如果你还没有币安账号： [注册页面](https://www.binance.com/zh-CN/register?ref=158674888)[免翻墙地址](https://www.binance.com/zh-CN/register?ref=158674888)交易返佣20% 注册立刻返现10元，充值交易再返现10元。
 
 交易返佣计算公式：交易金额1W元 * 手续费比率0.1% * 0.02 = 2元（交易1w节约2元）
 
@@ -59,11 +57,8 @@ pip install requests
 '''
 4. 运行主文件
 ```
-# python eth-run.py 这是带有钉钉通知的主文件(推荐使用钉钉模式启动👍)
+# python run.py
 ```
-
-如果您不想那么麻烦，又是python、linux 服务器。可以使用下面链接注册派网。体验网格交易
-![派网注册](https://www.pionex.cc/zh-CN/sign/ref/gP7byIO9)（通过该链接注册的用户，加我立马返现5元）
 
 ### 注意事项（一定要看）
 - 由于交易所的api在大陆无法访问，默认运行环境是国外的服务器,默认环境是python3(linux自带的是python2)
